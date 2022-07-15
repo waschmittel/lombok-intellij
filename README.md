@@ -1,6 +1,6 @@
 # Demo to reproduce IntelliJ Bug
 
-IntelliJ does not seem to work well with lombok's `lombok.accessors.capitalization` configuration option.
+This reproduces https://youtrack.jetbrains.com/issue/IDEA-298001 - IntelliJ does not seem to work well with lombok's `lombok.accessors.capitalization` configuration option.
 
 `mvn clean verify`works just fine
 
